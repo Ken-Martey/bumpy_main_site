@@ -84,7 +84,7 @@
               <li class="menu-item menu-item-has-children"><a href="index.html" class="active">Home</a>
 
               </li>
-              <li class="menu-item menu-item-has-children"><a href="product-list.html">Maternity</a>
+              <li class="menu-item menu-item-has-children"><a href="product-list.php">Maternity</a>
                 <ul class="sub-menu">
                       <li><a href="#">Maternity one</a></li>
                       <li><a href="#">Maternity one</a></li>
@@ -93,7 +93,7 @@
 
                 </ul>
               </li>
-              <li class="menu-item menu-item-has-children"><a href="product-list.html">Baby</a>
+              <li class="menu-item menu-item-has-children"><a href="product-list.php">Baby</a>
                 <ul class="sub-menu">
                       <li><a href="#">Baby one</a></li>
                       <li><a href="#">Baby one</a></li>
@@ -109,7 +109,7 @@
                       <li><a href="#">Toddlers one</a></li>
                 </ul>
               </li>
-              <li class="menu-item menu-item-has-children"><a href="product-list.html">Daddy</a>
+              <li class="menu-item menu-item-has-children"><a href="product-list.php">Daddy</a>
                 <ul class="sub-menu">
                       <li><a href="#">Daddy one</a></li>
                       <li><a href="#">Daddy one</a></li>
@@ -271,7 +271,6 @@
           <div class="col-md-7">
             <ul class="clearfix sepraterLi foterNav">
               <li><a href="#">About us</a></li>
-              <li><a href="#">Blog</a></li>
               <li><a href="#">Shop</a></li>
               <li><a href="contactus.html">Contact us</a></li>
             </ul><!-- ( FOOTER NAV END ) -->

@@ -202,7 +202,7 @@
 </span>
 </div><!-- ( WRAPPER END ) -->
 
-<script src="http://admin.bumpyshoppersclub.com/js/devless-sdk.js" class="devless-connection" devless-con-token="2d490ab1264453d3cb2718d699cdfd0a"></script>
+<script src="http://admin.bumpyshoppers.com/js/devless-sdk.js" class="devless-connection" devless-con-token="2d490ab1264453d3cb2718d699cdfd0a"></script>
 
 <!-- ( JQUERY LIBRARY LINKS ) -->
 <script src="/js/jquery.min.js"></script>

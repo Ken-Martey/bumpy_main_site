@@ -1,5 +1,5 @@
 <?php
 
-if($_SESSION['user_token']){
+if(isset($_SESSION['user_token'])){
 	$offer_club_prices = true;
 }

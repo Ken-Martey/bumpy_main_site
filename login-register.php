@@ -65,56 +65,39 @@ include 'datasource/get_categories.php';
 	</div><!-- ( CONTENT END ) -->
 
 
-	<footer class="footer style5">
-		<div class="bottom_bar clearfix">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="b-bar-logo">
-							<a href="index.html"><img src="images/logoLblack-big.png" alt=""></a>
-						</div><!-- ( BOTTOM BAR LOGO END ) -->
-						<ul class="clearfix foter_main-Nav">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="2-grid-layout-with-banner.html">Shop</a></li>
-							<li><a href="blog-1_2-column.html">Blog</a></li>
-							<li><a href="index.html">Sliders</a></li>
-							<li><a href="aboutus.html">Pages</a></li>
-							<li><a href="header-versions.html">Headers</a></li>
-							<li><a href="footer-versions.html">Footers</a></li>
-							<li><a href="login-register.html#">Features</a></li>
-						</ul><!-- ( FOOTER NAV END ) -->
-						<ul class="clearfix sepraterLi foterNav">
-							<li><a href="aboutus.html">About us</a></li>
-							<li><a href="blog-1_2-column.html">Blog</a></li>
-							<li><a href="2-grid-layout-with-banner.html">Shop</a></li>
-							<li><a href="contactus.html">Contact us</a></li>
-							<li><a href="faqs.html">FAQ</a></li>
-							<li><a href="site-map.html">Sitemap</a></li>
-						</ul><!-- ( FOOTER NAV END ) -->
-						<div class="copyright">&copy; 2017 The Stanza Template by <a href="http://imediathemes.com/" target="_blank">iMediaThemes</a>
-							<ul class="list-inline">
-								<li><a href="login-register.html#">All Rights Reserved</a></li>
-							</ul>
-						</div><!-- ( COPYRIGHT END ) -->
-					</div>
-				</div>
-			</div>
-			<div class="col-md-12 bg_e85200 text-center">
-				<div class="social_links">
-					<ul class="list-inline">
-						<li>Follow us</li>
-						<li><a href="login-register.html#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
-						<li><a href="login-register.html#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
-						<li><a href="login-register.html#"><i class="fa fa-linkedin-square"></i>&nbsp;</a></li>
-						<li><a href="login-register.html#"><i class="fa fa-google-plus-square"></i>&nbsp;</a></li>
-						<li><a href="login-register.html#"><i class="fa fa-pinterest-square"></i>&nbsp;</a></li>
-						<li><a href="login-register.html#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
-						<li><a href="login-register.html#"><i class="fa fa-youtube-square"></i>&nbsp;</a></li>
-					</ul>
-				</div><!-- ( SOCIAL LINKS END ) -->
-			</div>
-		</div><!-- ( BOTTOM BAR END ) -->
-	</footer><!-- ( FOOTER END ) -->
+	<footer class="footer style1">
+
+    <div class="bottom_bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <ul class="clearfix sepraterLi foterNav">
+              <li><a href="aboutus.html">About us</a></li>
+              <li><a href="blog-1_2-column.html">Blog</a></li>
+              <li><a href="2-grid-layout-with-banner.html">Shop</a></li>
+              <li><a href="contactus.html">Contact us</a></li>
+            </ul><!-- ( FOOTER NAV END ) -->
+            <div class="copyright">&copy; 2017 Bumpy shoppers club
+              <ul class="list-inline">
+                <li><a href="#">All Rights Reserved</a></li>
+              </ul>
+            </div><!-- ( COPYRIGHT END ) -->
+          </div>
+          <div class="col-md-5">
+            <div class="social_links">
+              <ul class="list-inline">
+                <li>Follow us</li>
+                <li><a href="#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-youtube-square"></i>&nbsp;</a></li>
+              </ul>
+            </div><!-- ( SOCIAL LINKS END ) -->
+          </div>
+        </div>
+      </div>
+    </div><!-- ( BOTTOM BAR END ) -->
+  </footer><!-- ( FOOTER END ) -->
 
 	<a href="login-register.html#" class="scroll_top"><i class="fa fa-chevron-up fa-2x"></i></a><!-- ( SCROLL TOP END ) -->
 

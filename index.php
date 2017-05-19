@@ -787,7 +787,7 @@
 
 		<div class="stripe">
 			<div class="container">
-				<h3 class="dashStyle">New Products</h3>
+				<h3 class="dashStyle">Latest Products</h3>
 				<div class="productsRow row">
 					<ul class="clearfix prodCarousel">
 
@@ -832,93 +832,7 @@
 		</div><!-- ( STRIPE END ) -->
 
 
-		<div class="stripe">
-			<div class="container">
-				<h3 class="dashStyle">Best Sellers</h3>
-				<div class="productsRow row best-seller">
-					<div class="col-md-6 col-sm-12">
-						<div class="row">
-            <?php foreach($best_sellers as $best_seller){?>
-							<div class="col-sm-6 col-xs-12 col-xs-12-ls">
-								<div class="productBox marginBottomNone">
-									<div class="productImage hoverStyle">
-										<img src="<?=$best_seller['image']?>" alt="">
-										<div class="hoverBox">
-                      <form method="POST" action="<?=$_SERVER['PHP_SELF']?>">
-                        <button class="cartBTN2">Add to Cart</button>
-                      <div class="hoverIcons">
-												<a href="product-details.html" class="eye hovicon"><i class="fa fa-eye"></i></a>
-                        <input type="hidden" name="add_to_cart" value="1">
-                        <input type="hidden" name="item_name" value="<?=$product['name']?>">
-                        <input type="hidden" name="item_id" value="<?=$product['id']?>">
-                        <input type="hidden" name="item_image" value="<?=$product['image']?>">
-                        <input type="hidden" name="item_price" value="<?=$product['origPrice']?>">
-                        <input type="hidden" name="item_quantity" value="1">
 
-											</div><!-- ( HOVER ICONS END ) -->
-                      </form>
-										</div><!-- ( HOVER BOX END ) -->
-									</div><!-- ( PRODUCT IMAGE END ) -->
-									<div class="productDesc">
-										<span class="product-title truncate"><a href="product-details.html"><?=$best_seller['name']?></a></span>
-										<p><?=$best_seller['short_desc']?></p>
-										<div>
-                        <a href="#">
-                        club price: <strong class="badge badge-success">GHS <?=$best_seller['clubPrice']?></strong>
-                        </a>
-                    </div><!-- ( STARS END ) -->
-                    <div >Normal price: <strong>GHS <?=$best_seller['origPrice']?></strong></div>
-									</div><!-- ( PRODUCT DESCRIPTION END ) -->
-								</div><!-- ( PRODUCT BOX END ) -->
-							</div>
-             <?php }?>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-12">
-						<div class="productBox big-sell">
-							<div class="productImage hoverStyle">
-								<div class="col-sm-6 col-xs-6 imgHeight">
-									<img src="images/big-sel-img.png" alt="">
-								</div>
-								<div class="col-sm-6 col-xs-6">
-									<a href="index.html#" class="onSalesBTN"><span>On</span>Sale!</a>
-								</div>
-								<div class="col-sm-6 col-xs-12">
-									<div class="text-left">
-										<h3>Drawstring Linen Short</h3>
-										<p>Banded drawstring waist, 2 front slash pockets, Approx. 10" rise, 3" inseam, Made in USA</p>
-										<hr>
-										<p>100% linenCare, Machine wash cold, this style fits true to size.</p>
-									</div>
-								</div>
-								<div class="hoverBox">
-									<div class="hoverIcons">
-										<a href="product-details.html" class="eye hovicon"><i class="fa fa-eye"></i></a>
-										<a href="index.html#" class="heart hovicon"><i class="fa fa-heart-o"></i></a>
-									</div><!-- ( HOVER ICONS END ) -->
-									<a href="view-cart.html" class="cartBTN2">Add to Cart</a>
-								</div><!-- ( HOVER BOX END ) -->
-							</div><!-- ( PRODUCT IMAGE END ) -->
-							<div class="productDesc">
-								<div class="row">
-									<div class="col-xs-8">
-										<span class="product-title"><a href="product-details.html">Drawstring Linen Short</a></span>
-										<p>Banded drawstring waist, 2 front slash pockets, Approx. 10" rise, 3" inseam, Made in USA</p>
-										<div class="stars">
-
-										</div><!-- ( STARS END ) -->
-									</div>
-									<div class="col-xs-4">
-										<strong class="productPrice"><del>$59.00</del></strong>
-										<strong class="big-sel-price">$39.00</strong>
-									</div>
-								</div>
-							</div><!-- ( PRODUCT DESCRIPTION END ) -->
-						</div><!-- ( PRODUCT BOX END ) -->
-					</div>
-				</div><!-- ( PRODUCTS ROW END ) -->
-			</div>
-		</div><!-- ( STRIPE END ) -->
 	</div><!-- ( CONTENT END ) -->
 
 

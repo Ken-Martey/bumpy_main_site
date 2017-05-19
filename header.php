@@ -109,12 +109,12 @@ include 'datasource/auth.php';
                 </ul>
               </li>
               <?php } ?>
-              <li class="menu-item"><a href="#">Event</a>
+              <!-- <li class="menu-item"><a href="#">Event</a>
 
               </li>
               <li class="menu-item"><a href="#">News</a>
 
-              </li>
+              </li> -->
               <li class="menu-item menu-item-has-children"><a href="contact_us.php">Contact</a>
 
               </li>
@@ -125,7 +125,7 @@ include 'datasource/auth.php';
             <!-- <a href="index.html#" class="searchBTN fa fa-search fa-fw"></a> -->
             <!-- <div class="mini-search">
               <div class="dropBox">
-                <form action="product-search.html" method="get" class="searchform"> 
+                <form action="product-search.html" method="get" class="searchform">
                   <input type="text" placeholder="Type and hit enter ..." value="" name="s" class="field searchform-s">
                   <button type="submit" class="submit"><i class="fa fa-search fa-fw"></i></button>
                 </form>

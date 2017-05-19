@@ -10,7 +10,7 @@ include 'datasource/get_category_products.php';
 				<div class="bantitle1 fontsize_34 cl_ffffff bold">It has Finally started...</div>
 				<h2 class="bantitle2 cl_ffffff uppercase bold">Join Bumbers Club</h2>
 				<div class="bantitle3 fontsize_27 cl_ffffff">UP TO 50% OFF</div><br>
-				<a href="#" class="banner_borderbtn bc_ffffff">Join Now</a>
+				<a href="login-register.php" class="banner_borderbtn bc_ffffff">Join Now</a>
 			</div>
 		</div>
 	</div><!-- ( BANNER END ) -->
@@ -66,7 +66,7 @@ include 'datasource/get_category_products.php';
 							</aside><!-- ( SLIDE NAV END ) -->
 						</div>
 						<div class="col-xs-12 col-sm-8 col-md-6">
-
+<!--
 							<div id="selectDropdown" class="selectDropdown style1 floatRight" tabindex="1">
 								<span>Latest</span>
 								<ul class="dropdown">
@@ -75,7 +75,7 @@ include 'datasource/get_category_products.php';
 									<li><a href="#">Price Low to High</a></li>
 									<li><a href="#">Recommended</a></li>
 								</ul>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div><!-- ( SORTING END ) -->
@@ -121,7 +121,7 @@ include 'datasource/get_category_products.php';
 						<?php } ?>
 						</div><!-- ( ROW END ) -->
 
-						<div class="text-center">
+						<!-- <div class="text-center">
 							<div class="pagination">
 								<a href="#" class="prevPage"><i class="fa fa-angle-left"></i></a>
 								<a href="#" class="pagActive">1</a>
@@ -129,7 +129,7 @@ include 'datasource/get_category_products.php';
 								<a href="#">3</a>
 								<a href="#" class="nextPage"><i class="fa fa-angle-right"></i></a>
 							</div><!-- ( PAGINATION END ) -->
-						</div>
+						<!-- </div> -->
 					</div>
 
 

@@ -1,7 +1,6 @@
 <?php
 session_start();
 
-
 class Cart
 {
 	public function add_to_cart
@@ -29,7 +28,7 @@ class Cart
 
     	$_SESSION['cart'] = $_SESSION['cart']?:[];
 
-    	
+
 		if($index !== false){
 			$_SESSION['cart'][$index]['quantity'] += $item_quantity;
 			$_SESSION['cart'][$index]['price'] = intval($_SESSION['cart'][$index]['quantity']) * floatval($item_price);
@@ -98,12 +97,13 @@ if(isset($_POST['add_to_cart'])){
 	$product_id = $_POST['item_id'];
 	$devless->setUserToken($_SESSION['user_token']);
 	$product = $devless->where('id', $product_id)->getData('orders', 'stock')['payload']['results'][0];
-	$price = (!isset($devless->call('devless', 'profile', [])['payload']['error']))? $product['clubPrice']:$product['origPrice'];
+  $price = (!isset($devless->call('devless', 'profile', [])['payload']['error']))? $product['clubPrice']:$product['origPrice'];
 	$cart->add_to_cart($_POST['item_id'], $product['name'], $product['image'], $price, $_POST['item_quantity']);
 
 	header("Location:".$_SERVER['REQUEST_URI']);
 
 }
+
 if(isset($_POST['remove_from_cart'])){
 	$cart->remove_from_cart($_POST['item_id']);
 	header("Location:".$_SERVER['REQUEST_URI']);

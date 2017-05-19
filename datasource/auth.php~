@@ -1,28 +1,27 @@
 <?php
 
-if($_POST['login']) {
+if(isset($_POST['login'])) {
 	$response = $devless->call('devless', 'login', ['',$_POST['email'],'',$_POST['password']]);
 //die(var_dump($response));
 	if($response){
-		if(true){
 			$login_successful = true;
 			$_SESSION['user_token'] = $response['payload']['result']['token'];
 			$_SESSION['user_profile'] = $response['payload']['result']['profile'];
 			header('Location:/');
-		}
 	} else {
      		$login_failed = true;
 	}
 }
-if($_SESSION['user_token']) {
+
+if(isset($_SESSION['user_token'])) {
 	$devless->setUserToken($_SESSION['user_token']);
 	$user_is_logged_in = $_SESSION['user_token'] = (!isset($devless->call('devless', 'profile', [])['payload']['error']))? $_SESSION['user_token'] : false;
 
 }
 
-if($_GET['logout']) {
+if(isset($_GET['logout'])) {
 	$devless->setUserToken($_SESSION['user_token']);
 	$devless->call('devless', 'logout', []);
-	$_SESSION['user_token'] = $_SESSION['user_profile'] = false;
+	$_SESSION['user_token'] = $_SESSION['user_profile'] = null;
 	header('Location:/login-register.php');
 }

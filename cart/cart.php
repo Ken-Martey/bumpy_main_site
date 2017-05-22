@@ -24,7 +24,7 @@ class Cart
 		$index = $this->check_if_exist_in_cart($item_id);
 		$_SESSION['cart_total_quantity'] += $item_quantity;
 		$_SESSION['cart_total_price'] += $item_quantity * $item_price;
-		$_SESSION['notify_message'] = 'Product added';$_SESSION['notify_color'] ='#a6fb86';
+		$_SESSION['notify_message'] = 'Product successfully added to cart ';$_SESSION['notify_color'] ='#80D651';
 
     	$_SESSION['cart'] = $_SESSION['cart']?:[];
 
@@ -47,7 +47,7 @@ class Cart
 				$_SESSION['cart_total_price'] =
 				$_SESSION['cart_total_price'] - $_SESSION['cart'][$cart_key]['price'];
 				unset($_SESSION['cart'][$cart_key]);
-				$_SESSION['notify_message'] = 'Product removed';$_SESSION['notify_color'] ='#a6fb86';
+				$_SESSION['notify_message'] = 'Product removed from cart';$_SESSION['notify_color'] ='#a6fb86';
 
 				return true;
 			}

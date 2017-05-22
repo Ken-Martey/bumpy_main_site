@@ -5,15 +5,61 @@
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+
+.notice {
+    padding: 18px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+            box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+}
+.notice-sm {
+    padding: 13px;
+    font-size: 80%;
+}
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+.notice-success {
+    border-color: #80D651;
+}
+.notice-success>strong {
+    color: #80D651;
+}
+.notice-info {
+    border-color: #45ABCD;
+}
+.notice-info>strong {
+    color: #45ABCD;
+}
+.notice-warning {
+    border-color: #FEAF20;
+}
+.notice-warning>strong {
+    color: #FEAF20;
+}
+.notice-danger {
+    border-color: #d73814;
+}
+.notice-danger>strong {
+    color: #d73814;
+}
+  </style>
   <div class="modal fade" id="notif" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog" style="width:250px;height:3%;">
-          <div class="modal-content" style="background-color:<?=$_SESSION['notify_color']?>;">
-              <div class="modal-body">
+          <div class="" style="">
+              <div class="">
                   <div id="left">
                       <div>
                           <center>
-                              <p><font color="white"><?=$_SESSION['notify_message']?></font>
-                              </p>
+                               <div class="notice notice-info">
+                              <strong>Notice: </strong> <?=$_SESSION['notify_message']?>
+                              </div>
                           </center>
                       </div>
 
@@ -23,6 +69,7 @@
               <!-- /.modal-dialog -->
           </div>
           <!-- /.modal -->
+
           <script>
               $(function() {
                   $('#notif').modal({

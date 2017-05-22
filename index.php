@@ -3,6 +3,7 @@
  include 'datasource/get_products.php';
  include 'datasource/get_best_sellers.php';
  include 'datasource/offer_club_prices.php';
+ include 'wishClass.php';
 ?>
 <div id="banner" class="stripe banner">
     <!-- START REVOLUTION SLIDER 5.0.7 -->
@@ -745,6 +746,10 @@
                         </a>
                                         </div><!-- ( STARS END ) -->
                                         <div >Normal price: <strong>GHS <?=$product['origPrice']?></strong></div>
+                                        <form action="/wishlist.php" method="POST">
+                                          <input type="hidden" name="addAWish" value="<?=$product['id']?>">
+                                          <button type="submit">Add to wishlist</button>
+                                        </form>
                                         </span>
 
                                     </div><!-- ( PRODUCT DESCRIPTION END ) -->
@@ -821,6 +826,10 @@
                         </a>
                                         </div><!-- ( STARS END ) -->
                                         <div >Normal price: <strong>GHS <?=$product['origPrice']?></strong></div>
+                                        <form action="/wishlist.php" method="POST">
+                                          <input type="hidden" name="addAWish" value="<?=$product['id']?>">
+                                          <button type="submit">Add to wishlist</button>
+                                        </form>
                                     </div><!-- ( PRODUCT DESCRIPTION END ) -->
                                 </div><!-- ( PRODUCT BOX END ) -->
                             </div>

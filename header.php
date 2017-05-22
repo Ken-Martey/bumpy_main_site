@@ -4,6 +4,7 @@ include 'datasource/get_categories.php';
 include 'datasource/get_sub_categories.php';
 include 'cart/get_all_cart_items.php';
 include 'datasource/auth.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -121,19 +122,19 @@ include 'datasource/auth.php';
             </ul>
           </div><!-- ( MAIN MENU END ) -->
 
-          <div class="nav_search mobile_none">
-            <!-- <a href="index.html#" class="searchBTN fa fa-search fa-fw"></a> -->
-            <!-- <div class="mini-search">
-              <div class="dropBox">
-                <form action="product-search.html" method="get" class="searchform">
-                  <input type="text" placeholder="Type and hit enter ..." value="" name="s" class="field searchform-s">
-                  <button type="submit" class="submit"><i class="fa fa-search fa-fw"></i></button>
-                </form>
-              </div>
-            </div> -->
-            <!-- ( MINI SEARCH END ) -->
-          </div><!-- ( NAV SEARCH END ) -->
-
+          <div class="mini-cart">
+            <div class="cartHover">
+             <a href="/wishlist.php">
+              <span class="cartBTN">Wishes
+              </span>
+              <span class="cart-icon">
+                <i class="itemCount"><?=sizeof($_SESSION['wishlist'])?:0?></i>
+                <i class="fa fa-magic"></i>
+              </span><!-- ( CART ICON END ) -->
+              </a>
+            </div><!-- ( CART HOVER END ) -->
+          </div><!-- ( MINI CART END ) -->
+          
           <div class="mini-cart">
             <div class="cartHover">
               <span class="cartBTN">GHS <?=$_SESSION['cart_total_price']?:0?></span>
@@ -146,7 +147,8 @@ include 'datasource/auth.php';
               <div class="dropBox">
                 <p class="fontsize_16">You have <?=$_SESSION['cart_total_quantity']?> items in your cart</p>
                 <ul>
-                 <?php foreach($cart_items as $cart_item){?>
+                <?php if(sizeof($cart_items)){?>
+                  <?php foreach($cart_items as $cart_item){?>
                   <li>
                     <a href="index.html#">
                       <span class="cartThum">
@@ -163,7 +165,11 @@ include 'datasource/auth.php';
                       <button class="itemDelete"><i class="fa fa-times"></i></button>
                     </form>
                   </li>
-                  <?php }?>
+                    <?php }?>
+                  <?php } else {?>
+                    <center><p>Cart is Empty. Start shopping :)</p></center>
+                  <?php } ?>
+
                 </ul>
                 <div class="totalPrice">
                   <a href="view-cart.php" class="btn cart-btn bg_61760d floatLeft">View Cart</a>

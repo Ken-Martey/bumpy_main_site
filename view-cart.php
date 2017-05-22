@@ -1,6 +1,6 @@
 <?php
 include 'header.php';
-include 'cart/get_all_cart_item.php';
+
 ?>
 	<div class="innerHeading bg_f1f1f1 innerHeading-border stripeM">
 		<div class="container text-center">

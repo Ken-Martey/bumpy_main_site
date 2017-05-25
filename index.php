@@ -10,12 +10,12 @@
         <div class="rev_slider_wrapper">
             <div id="slider1" class="rev_slider" data-version="5.0.7">
                 <ul>
-                    <li data-transition="fade" data-thumb="images/slider/bumpy-slider-1.jpg" data-title="Join the club">
+                    <li data-transition="fade" data-thumb="images/slider/bumpy-slider-test.jpg" data-title="Join the club">
                         <!-- MAIN IMAGE -->
-                        <img src="images/slider/bumpy-slider-1.jpg" alt="" width="1920" height="617">
+                        <img src="images/slider/bumpy-slider-test.png" alt="" width="1920" height="617">
 
             <!-- LAYER NR. 1 -->
-            <div class="tp-caption tp-resizeme rs-parallaxlevel-0"
+            <!-- <div class="tp-caption tp-resizeme rs-parallaxlevel-0"
               id="slide-1-layer-1"
               data-x="['right','center','center','center']" data-hoffset="['-210','-161','-111','96']"
               data-y="['top','bottom','bottom','bottom']" data-voffset="['0','-10','-1','-39']"
@@ -29,6 +29,24 @@
               data-responsive_offset="on"
               data-lasttriggerstate="reset"
               style="z-index:0;">
+            </div> -->
+
+              <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0 slider_rightM"
+               id="slide-4-layer-3"
+               data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
+               data-y="['top','top','top','top']" data-voffset="['150','130','110','80']"
+               data-lineheight="['40','30','25','30']"
+               data-width="710"
+               data-height="90"
+               data-whitespace="nowrap"
+               data-transform_idle="o:1;"
+               data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;"
+               data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+               data-mask_in="x:0px;y:0px;"
+               data-mask_out="x:inherit;y:inherit;"
+               data-start="1000"
+               data-responsive_offset="on"
+               style="z-index: 5;background-color:rgba(189,141,191,1.00);"> <!-- FOR TEXT BACKGROUND -->
             </div>
 
                         <!-- LAYER NR. 2 -->
@@ -69,7 +87,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index:26;white-space:nowrap;color:#bd8dbf;font-style:italic;">By Anne Buchanan & Debra Klingsporn
+              style="z-index:26;white-space:nowrap;color:#ffffff;font-style:italic;">By Anne Buchanan & Debra Klingsporn
                         </div>
 
                         <!-- LAYER NR. 5 -->
@@ -166,7 +184,7 @@
 
           <li data-transition="fade" data-thumb="images/slider/bumpy-slider-2.jpg" data-title="Bumpy shoppers club">
             <!-- MAIN IMAGE -->
-            <img src="images/slider/bumpy-slider-2.jpg" alt="" width="1920" height="617">
+            <img src="images/slider/bumpy-slider-test-2.png" alt="" width="1920" height="617">
 
             <!-- LAYER NR. 1 -->
             <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
@@ -324,7 +342,7 @@
 
           <li data-transition="fadeout" data-thumb="images/slider/bumpy-slider-3.jpg" data-title="Join Bumpy">
             <!-- MAIN IMAGE -->
-            <img src="images/slider/bumpy-slider-3.jpg" alt="" width="1920" height="617">
+            <img src="images/slider/bumpy-slider-test-3.png" alt="" width="1920" height="617">
 
             <!-- LAYER NR. 1 -->
             <div class="tp-caption tp-resizeme rs-parallaxlevel-0"
@@ -360,7 +378,7 @@
                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
                data-start="1000"
                data-responsive_offset="on"
-               style="z-index:6;color:#bd8dbf;">"A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;dress should be a like a barbed-wire<br>fence: serving its purpose withoutobstructing <br>the view."
+               style="z-index:6;color:#ffffff;">"A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;dress should be a like a barbed-wire<br>fence: serving its purpose withoutobstructing <br>the view."
             </div>
 
             <!-- LAYER NR. 3 -->
@@ -405,7 +423,7 @@
                data-splitin="none"
                data-splitout="none"
                data-responsive_offset="on"
-               style="z-index:26;white-space:nowrap;color:#000;font-style:italic;">Sophia Loren
+               style="z-index:26;white-space:nowrap;color:#ffffff;font-style:italic;">Sophia Loren
             </div>
 
             <!-- LAYER NR. 5 -->
@@ -426,7 +444,7 @@
                data-splitout="none"
                data-responsive_offset="on"
                data-responsive="on"
-               style="z-index:22;color:#bd8dbf;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Join
+               style="z-index:22;color:#ffffff;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Join
             </div>
 
             <!-- LAYER NR. 6 -->
@@ -447,7 +465,7 @@
                data-splitout="none"
                data-responsive_offset="on"
                data-responsive="on"
-               style="z-index:22;color:#bd8dbf;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Bumpy Shoppers Club
+               style="z-index:22;color:#ffffff;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Bumpy Shoppers Club
             </div>
 
             <!-- LAYER NR. 7 -->
@@ -519,12 +537,13 @@
             </div>
           </li>
 
+          <!-- Layer for slider 4 -->
           <li data-transition="fade" data-thumb="images/slider/bumpy-slider-4.jpg" data-title="Shop Now">
             <!-- MAIN IMAGE -->
-            <img src="images/slider/bumpy-slider-4.jpg" alt="" width="1920" height="617">
+            <img src="images/slider/bumpy-slider-test-4.png" alt="" width="1920" height="617">
 
             <!-- LAYER NR. 1 -->
-            <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
+            <!-- <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
                id="slide-4-layer-1"
                data-x="['right','center','center','center']" data-hoffset="['208','0','0','0']"
                data-y="['top','top','top','top']" data-voffset="['105','130','110','80']"
@@ -541,11 +560,11 @@
                data-splitin="none"
                data-splitout="none"
                data-responsive_offset="on"
-               style="z-index:5;white-space:nowrap;color:#000;">Celebrate
-            </div>
+               style="z-index:5;white-space:nowrap;color:#000;"> <!-- style="z-index:5;white-space:nowrap;color:#000;">Celebrate-->
+            <!--</div> -->
 
             <!-- LAYER NR. 2 -->
-            <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
+           <!--  <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
                id="slide-4-layer-2"
                data-x="['right','left','left','center']" data-hoffset="['20','651','563','434']"
                data-y="['top','top','top','top']" data-voffset="['105','483','377','180']"
@@ -563,11 +582,11 @@
                data-splitin="none"
                data-splitout="none"
                data-responsive_offset="on"
-               style="z-index:26;white-space:nowrap;color:#fff;">with Us
-            </div>
+               style="z-index:26;white-space:nowrap;color:#fff;"><!-- style="z-index:5;white-space:nowrap;color:#000;">with us-->
+            <!--</div> -->
 
             <!-- LAYER NR. 3 -->
-            <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0 slider_rightM"
+            <!-- <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0 slider_rightM"
                id="slide-4-layer-3"
                data-x="['right','center','center','center']" data-hoffset="['120','0','0','0']"
                data-y="['top','middle','middle','middle']" data-voffset="['170','15','15','15']"
@@ -581,11 +600,11 @@
                data-mask_out="x:inherit;y:inherit;"
                data-start="1000"
                data-responsive_offset="on"
-               style="z-index: 5;background-color:rgba(189,141,191,1.00);">
-            </div>
+               style="z-index: 5;background-color:rgba(189,141,191,1.00);"> <!-- FOR TEXT BACKGROUND -->
+           <!-- </div> -->
 
             <!-- LAYER NR. 4 -->
-            <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
+            <!-- <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
                id="slide-4-layer-4"
                data-x="['right','center','center','center']" data-hoffset="['133','0','0','0']"
                data-y="['top','middle','middle','middle']" data-voffset="['177','0','0','0']"
@@ -605,11 +624,11 @@
                data-splitout="none"
                data-responsive_offset="on"
                data-elementdelay="0.05"
-               style="z-index:6;white-space:nowrap;color:#fff;">25%OFF
-            </div>
+               style="z-index:6;white-space:nowrap;color:#fff;"> <!-- style="z-index:5;white-space:nowrap;color:#000;">25%OFF-->
+            <!--</div> -->
 
             <!-- LAYER NR. 5 -->
-            <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
+            <!-- <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_right"
                id="slide-4-layer-5"
                data-x="['right','left','left','center']" data-hoffset="['203','651','563','434']"
                data-y="['top','top','top','top']" data-voffset="['275','483','377','180']"
@@ -627,11 +646,11 @@
                data-splitin="none"
                data-splitout="none"
                data-responsive_offset="on"
-               style="z-index:26;white-space:nowrap;color:#000;">Entire Purchase
-            </div>
+               style="z-index:26;white-space:nowrap;color:#000;"> <!-- style="z-index:5;white-space:nowrap;color:#000;">Entire purchase-->
+            <!--</div> -->
 
             <!-- LAYER NR. 12 -->
-            <div class="tp-caption rs-parallaxlevel-0 slider_text1 slider_right"
+            <!-- <div class="tp-caption rs-parallaxlevel-0 slider_text1 slider_right"
                id="slide-4-layer-12"
                data-x="['right','right','right','right']" data-hoffset="['0','30','30','0']"
                data-y="['top','bottom','bottom','middle']" data-voffset="['385','30','30','0']"
@@ -648,11 +667,11 @@
                data-splitout="none"
                data-responsive_offset="on"
                data-responsive="on"
-               style="z-index:22;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Big Sale
-            </div>
+               style="z-index:22;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><!-- style="z-index:5;white-space:nowrap;color:#000;">Big Sale-->
+            <!--</div> -->
 
             <!-- LAYER NR. 13 -->
-            <a href="#">
+          <!--   <a href="#">
             <div class="tp-caption rs-parallaxlevel-0 slider_borderbtn1 slider_rightM"
                id="slide-4-layer-13"
                data-x="['right','right','right','center']" data-hoffset="['30','521','398','0']"
@@ -672,11 +691,11 @@
                data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]'
                data-responsive_offset="on"
                data-responsive="on"
-               style="z-index:9;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Join Now
-            </div></a>
+               style="z-index:9;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><!-- style="z-index:5;white-space:nowrap;color:#000;">Join Now -->
+           <!-- </div></a> -->
 
             <!-- LAYER NR. 14 -->
-            <div class="tp-caption rs-parallaxlevel-0 slider_borderbtn1 slider_rightM"
+           <!--  <div class="tp-caption rs-parallaxlevel-0 slider_borderbtn1 slider_rightM"
                id="slide-4-layer-14"
                data-x="['right','left','left','center']" data-hoffset="['240','522','399','0']"
                data-y="['bottom','top','top','top']" data-voffset="['70','248','218','188']"
@@ -695,9 +714,10 @@
                data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
                data-responsive_offset="on"
                data-responsive="on"
-               style="z-index:10;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;background-color:rgba(189,141,191,1.00);">Shop Now
-            </div>
+               style="z-index:10;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;background-color:rgba(189,141,191,1.00);"><!-- style="z-index:5;white-space:nowrap;color:#000;">Shop Now-->
+            <!-- </div> -->
           </li>
+          <!-- end of layer 4 -->
                 </ul>
             </div><!-- END REVOLUTION SLIDER -->
         </div><!-- END OF SLIDER WRAPPER -->

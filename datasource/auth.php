@@ -22,8 +22,8 @@ if(isset($_POST['login'])) {
 
 if(isset($_SESSION['user_token'])) {
 //  die($_SESSION['user_token']);
-	$devless->setUserToken($_SESSION['user_token']);
-	$_SESSION['user_token'] = (isset($devless->call('devless', 'profile', [])['payload']['error']))? $_SESSION['user_token'] : false;
+	// $devless->setUserToken($_SESSION['user_token']);
+	// $_SESSION['user_token'] = (isset($devless->call('devless', 'profile', [])['payload']['error']))? $_SESSION['user_token'] : false;
 }
 
 

@@ -24,7 +24,7 @@ include 'datasource/get_categories.php';
 
 					<div class="col-md-6 col-sm-6 col-xs-12 registrationForm">
 						<h2>Register</h2>
-						<form action="#" class="clearfix dv-signup">
+						<form class="clearfix dv-signup">
 							<p><input type="text" name="email" placeholder="Email address *"/></p>
 							<p><input type="password" name="password" placeholder="Set a password *"/></p>
 							<div class="clearfix"><button class="btn-custom-3" id="registration_clicked" type="submit">Pay to Register Now</button></div>
@@ -131,23 +131,32 @@ include 'datasource/get_categories.php';
 <!-- theme custom JS Files -->
 <script src="js/configuration.js"></script>
 <script type="text/javascript">
+function reference_code(length, chars) {
+    var result = '';
+    for (var i = length; i > 0; --i) result += chars[Math.floor(Math.random() * chars.length)];
+    return result;
+}
+var reference_code = reference_code(12, '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ');
 	$('#registration_clicked').click(function(){
 		devlessCallbacks(function(resp){
-			console.log(resp);
 			profile = undefined;
+			console.log(resp)
 			profile = resp.payload.result.profile
 			data = {
 				'email': profile.email,
-				'amount': 20,
+				'amount': 400,
 				'status': 'not paid',
-				'timestamp': Date.now()
+				'timestamp': Date.now(),
+				'reference_code': 'mp'+reference_code
 			}
+			console.log("profile",profile);
 			if(profile != undefined){
 				SDK.addData('orders', 'membership_payments', data, function(res){
+						console.log("membership_pay",res);
 						if(res.status_code == 609){
-							SDK.call('orders', 'register_for_club', [profile.email], function(resp){
-								console.log(resp);
-							})
+							//SDK.call('orders', 'register_for_club', [profile.email], function(resp){
+								window.location.href = 'http://admin.bumpyshoppers.com/service/slydepay/view/pay?batch_id=mp'+reference_code+'&pay_option=mtn';
+							//})
 						}
 				});
 			}

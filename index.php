@@ -10,7 +10,7 @@
         <div class="rev_slider_wrapper">
             <div id="slider1" class="rev_slider" data-version="5.0.7">
                 <ul>
-                    <li data-transition="fade" data-thumb="images/slider/bumpy-slider-test.jpg" data-title="Join the club">
+                    <li data-transition="fade" data-thumb="images/slider/bumpy-slider-test.png" data-title="Join the club">
                         <!-- MAIN IMAGE -->
                         <img src="images/slider/bumpy-slider-test.png" alt="" width="1920" height="617">
 
@@ -182,7 +182,7 @@
                         </div>
                     </li>
 
-          <li data-transition="fade" data-thumb="images/slider/bumpy-slider-2.jpg" data-title="Bumpy shoppers club">
+          <li data-transition="fade" data-thumb="images/slider/bumpy-slider-test-2.png" data-title="Bumpy shoppers club">
             <!-- MAIN IMAGE -->
             <img src="images/slider/bumpy-slider-test-2.png" alt="" width="1920" height="617">
 
@@ -340,7 +340,7 @@
             </div>
           </li>
 
-          <li data-transition="fadeout" data-thumb="images/slider/bumpy-slider-3.jpg" data-title="Join Bumpy">
+          <li data-transition="fadeout" data-thumb="images/slider/bumpy-slider-test-3.png" data-title="Join Bumpy">
             <!-- MAIN IMAGE -->
             <img src="images/slider/bumpy-slider-test-3.png" alt="" width="1920" height="617">
 
@@ -538,7 +538,7 @@
           </li>
 
           <!-- Layer for slider 4 -->
-          <li data-transition="fade" data-thumb="images/slider/bumpy-slider-4.jpg" data-title="Shop Now">
+          <li data-transition="fade" data-thumb="images/slider/bumpy-slider-test-4.png" data-title="Shop Now">
             <!-- MAIN IMAGE -->
             <img src="images/slider/bumpy-slider-test-4.png" alt="" width="1920" height="617">
 
@@ -727,7 +727,7 @@
 	<div id="content">
 		<div class="stripe">
 			<div class="container">
-				<h3 class="dashStyle">Featured Products</h3>
+				<h3 class="dashStyle">As seen on the Esi Yankah Show</h3>
 				<div class="productsRow row">
                 	<ul class="clearfix prodCarousel">
     <?php foreach($products as $product){?>

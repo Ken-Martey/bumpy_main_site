@@ -7,7 +7,7 @@ include 'header.php';
 			<h1 class="marginBottomNone">Shopping Cart</h1>
 			<div class="breadcrumb">
 				<ul class="clearfix">
-					<li><a href="index.html">Home</a></li>
+					<li><a href="/">Home</a></li>
 					<li>Shopping Cart</li>
 				</ul>
 			</div><!-- ( BREAD CRUMB END ) -->
@@ -56,12 +56,17 @@ include 'header.php';
 								</tr>
 								<tr>
 									<td colspan="8">
-										<a class="btn cart-btn bg_e85200 floatLeft" href="/">Continue Shopping</a>
+                    <a class="btn cart-btn bg_e85200 floatLeft" href="/">Continue Shopping</a>
+										<a href="/wishlist.php" class="btn cart-btn bg_e85200 floatLeft" href="/">Wishes</a>
 										<form method="post" action="<?=$_SERVER['REQUEST_URI']?>">
 											<input type="hidden" name="empty_cart">
-										<button  type="submit" class="btn cart-btn bg_dfdfdf floatRight" >Clear Shopping Cart</button>
+                    <button  type="submit" class="btn cart-btn bg_dfdfdf floatRight" >Clear Cart</button>
 										</form>
+                    <a href="checkout.php" class="btn cart-btn bg_e85200 floatRight" >Checkout</button>
+
 									</td>
+
+
 								</tr>
 							</tbody>
 						</table>

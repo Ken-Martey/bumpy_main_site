@@ -4,6 +4,7 @@
  include 'datasource/get_best_sellers.php';
  include 'datasource/offer_club_prices.php';
  include 'wishClass.php';
+ include 'registryClass.php';
 ?>
 <div id="banner" class="stripe banner">
     <!-- START REVOLUTION SLIDER 5.0.7 -->

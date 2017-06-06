@@ -14,11 +14,12 @@ include 'datasource/auth.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>Bumpy Shoppers Club</title>
-    <link rel="icon" href="images/favicon.jpg" type="image/png" />
+    <link rel="icon" href="images/bumpy.ico" type="image/png" />
 
 	<!-- ( CSS LIBRARY LINKS ) -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/default.css@ver=2112.css" rel="stylesheet">
+  <link href="css/default.css@ver=2112.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
 
 	<!-- ( RS5.0 MAIN STYLESHEET ) -->
 	<link rel="stylesheet" href="revolution/css/settings.css">
@@ -134,7 +135,7 @@ include 'datasource/auth.php';
               </a>
             </div><!-- ( CART HOVER END ) -->
           </div><!-- ( MINI CART END ) -->
-          
+
           <div class="mini-cart">
             <div class="cartHover">
               <span class="cartBTN">GHS <?=$_SESSION['cart_total_price']?:0?></span>

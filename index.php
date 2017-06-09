@@ -604,7 +604,7 @@
                                         </div>
                                         <div class="bb-registry">
                                         <form action="/registry.php" method="POST">
-                                          <input type="hidden" name="addAWish" value="<?=$product['id']?>">
+                                          <input type="hidden" name="addARegistry" value="<?=$product['id']?>">
                                           <button class="icon-as-btn" title="Baby registry" type="submit"><i class="fa fa-child fa-2x"></i> </button>
                                           <div>Baby registry</div>
                                         </form>
@@ -697,7 +697,7 @@
                                         </div>
                                         <div class="bb-registry">
                                         <form action="/registry.php" method="POST">
-                                          <input type="hidden" name="addAWish" value="<?=$product['id']?>">
+                                          <input type="hidden" name="addARegistry" value="<?=$product['id']?>">
                                           <button class="icon-as-btn" title="Baby registry" type="submit"><i class="fa fa-child fa-2x"></i> </button>
                                           <div>Baby registry</div>
                                         </form>

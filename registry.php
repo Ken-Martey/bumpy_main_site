@@ -43,14 +43,20 @@ include 'registryClass.php';
 									<td class="text-left">
 										<?=$wishItem['name']?>
 									</td>
-									<td class="cl_e85200">GHS <?=$wishItem['origPrice']?> / <span class="badge"> GHS <a   href="/login-register.php"><?=$wishItem['clubPrice']?></a></span></td>
+									<td class="cl_e85200">GHS <?=$wishItem['price']?> </td>
 									<td class="cl_e85200">
 									<form action="<?PHP $_SERVER['PHP_SELF']?>" method="POST">
+									<input type="hidden" name="add_to_cart" value="1">
+                                              <input type="hidden" name="item_name" value="<?=$wishItem['name']?>">
+                                              <input type="hidden" name="item_id" value="<?=$wishItem['id']?>">
+                                              <input type="hidden" name="item_image" value="<?=$wishItem['image']?>">
+                                              <input type="hidden" name="item_price" value="<?=$wishItem['origPrice']?>">
+                                     <input type="hidden" name="item_quantity" value="1">
 									<button type="submit" class="btn btn-info">add to cart</button>
 									</form>
 									<br>
 									<form action="<?PHP $_SERVER['PHP_SELF']?>" method="POST">
-									<input type="hidden" name="deleteWish" value="<?=$index?>">
+									<input type="hidden" name="deleteRegistry" value="<?=$index?>">
 									<button class="btn btn-danger" type="submit">&nbsp &nbsp  Delete &nbsp &nbsp</button>
 									</form>
 									</td>
@@ -61,15 +67,16 @@ include 'registryClass.php';
 									<td colspan="8">
 										<a class="btn cart-btn bg_e85200 floatLeft" href="/">Continue Shopping</a>
 										<form method="post" action="<?=$_SERVER['REQUEST_URI']?>">
-											<input type="hidden" name="forgetAllWishes">
+											<input type="hidden" name="forgetAllRegistry">
 										<button  type="submit" class="btn cart-btn bg_dfdfdf floatRight" >Forget Registry</button>
 										</form>
 									</td>
+
 								</tr>
 							</tbody>
 						</table>
 					</div><!-- ( MY TABLE END ) -->
-
+					<a class="btn cart-btn bg_e85200 floatRight" href="/ask.php">Ask Family&Friends to pay</a>
 
 				</div><!-- ( SHOPING CART END ) -->
 			</div><!-- ( STRIPE END ) -->

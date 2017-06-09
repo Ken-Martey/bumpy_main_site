@@ -14,7 +14,7 @@ class Registry
 
 	public function addAWish($productId)
 	{
-		foreach ($_SESSION['wishlist'] as $wishes) {
+		foreach ($_SESSION['registry'] as $wishes) {
 			if($productId == $wishes['id']){
 				$_SESSION['notify_color'] ='#a6fb86';
 				$_SESSION['notify_message'] = 'You already have this to registry';
@@ -23,7 +23,14 @@ class Registry
 		}
 		$product = $this->devless->where('id', $productId)
 			->getData('orders', 'stock')['payload']['results'][0];
-
+		$product['price'] = $product['origPrice'];
+		$product['description'] = $product['short_desc'];
+		unset($product['clubPrice']);
+		unset($product['origPrice']);
+		unset($product['long_desc']);
+		unset($product['on_offer']);
+		unset($product['short_desc']);
+		
 		return array_push($_SESSION['registry'], $product);
 	}
 
@@ -46,18 +53,18 @@ class Registry
 
 $registry = new Registry($devless);
 
-if(isset($_POST['addAWish'])){
+if(isset($_POST['addARegistry'])){
 	
-	$registry->addAWish($_POST['addAWish']);
-	$_SESSION['notify_color'] ='#a6fb86';$_SESSION['notify_message'] = 'Added to Wish List';
+	$registry->addAWish($_POST['addARegistry']);
+	$_SESSION['notify_color'] ='#a6fb86';$_SESSION['notify_message'] = 'Added to Registry';
 }
 
-if(isset($_POST['forgetAllWishes'])){
+if(isset($_POST['forgetAllRegistry'])){
 	$registry->forgetAllWishes();
 	$_SESSION['notify_color'] ='#a6fb86';$_SESSION['notify_message'] = 'Your wishes have been cleared';
 }
 
-if(isset($_POST['deleteWish'])){
+if(isset($_POST['deleteRegistry'])){
 	$registry->deleteWish($_POST['deleteWish']);
 	$_SESSION['notify_color'] ='#a6fb86';$_SESSION['notify_message'] = 'Wish deleted successfully';
 }

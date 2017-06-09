@@ -1,3 +1,15 @@
 .badge{
   background-color: #df6f98;
 }
+
+.icon-as-btn{
+background-color: #ffffff;
+color: #bd8dbf;
+}
+.wishlist{
+  float: left;
+  margin-left: 30px;
+}
+.wishlist-bb-registry{
+  margin-top: 10px
+}

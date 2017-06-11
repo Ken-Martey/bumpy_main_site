@@ -134,6 +134,19 @@ include 'datasource/auth.php';
               </span><!-- ( CART ICON END ) -->
               </a>
             </div><!-- ( CART HOVER END ) -->
+
+          </div><!-- ( MINI CART END ) -->
+          <div class="mini-cart">
+            <div class="cartHover">
+             <a href="/registry.php">
+              <span class="cartBTN">Baby Registry
+              </span>
+              <span class="cart-icon">
+                <i class="itemCount"><?=sizeof($_SESSION['wishlist'])?:0?></i>
+                <i class="fa fa-baby"></i>
+              </span><!-- ( CART ICON END ) -->
+              </a>
+            </div><!-- ( CART HOVER END ) -->
           </div><!-- ( MINI CART END ) -->
 
           <div class="mini-cart">

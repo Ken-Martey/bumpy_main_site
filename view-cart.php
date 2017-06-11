@@ -57,7 +57,7 @@ include 'header.php';
 								<tr>
 									<td colspan="8">
                     <a class="btn cart-btn bg_e85200 floatLeft" href="/">Continue Shopping</a>
-										<a href="/wishlist.php" class="btn cart-btn bg_e85200 floatLeft" href="/">Wishes</a>
+										<!-- <a href="/wishlist.php" class="btn cart-btn bg_e85200 floatLeft" href="/">Wishes</a> -->
 										<form method="post" action="<?=$_SERVER['REQUEST_URI']?>">
 											<input type="hidden" name="empty_cart">
                     <button  type="submit" class="btn cart-btn bg_dfdfdf floatRight" >Clear Cart</button>

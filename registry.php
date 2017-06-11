@@ -2,19 +2,45 @@
 include 'header.php';
 include 'registryClass.php';
 ?>
-	<div class="innerHeading bg_f1f1f1 innerHeading-border stripeM">
-		<div class="container text-center">
-			<h1 class="marginBottomNone">Baby Registry</h1>
-			<div class="breadcrumb">
-				<ul class="clearfix">
-					<li>Registry</li>
-				</ul>
-			</div><!-- ( BREAD CRUMB END ) -->
-		</div>
-	</div><!-- ( INNER HEADING END ) -->
+<div id="banner" class="stripe banner">
+    <img src="images/3-grid-masonry-layout-sidebar-with-banner.jpg" alt=""/>
+    <div class="bannerText">
+      <div class="container">
+        <div class="bantitle1 fontsize_34 cl_ffffff bold">Baby Registry</div>
+        <h2 class="bantitle2 cl_ffffff uppercase bold"></h2>
+        <div class="bantitle3 fontsize_27 cl_ffffff">Add items to registry for family and friends to help you acquire them</div><br>
+        <a href="index.php" class="banner_borderbtn bc_ffffff">Add to registry</a>
+      </div>
+    </div>
+  </div><!-- ( BANNER END ) -->
 
+<div class="baby-registry-description">
+        <div class="col-md-6">
+          <div class="card">
+                    <div class="card-content">
+                      <div class="card-header-grey">
+                           <h1 class="card-heading">What is Baby registry about ?</h1>
+                        </div>
+                        <div class="card-body">
+                        <p class="card-p">
+                          Baby registry is the cart in which you select items you need for your child
+                          and ask family and friends
+                          to pay for the items.
+                          <p>Look through items on product listing page. </p>
 
-	<div id="content" class="productPage">
+                          <p>>> click on baby registry</p>
+                          <p>It automatically adds item selected to baby registry</p>
+                          <p>>> Check what is in the registry clicking on baby registry on at the top </p>
+
+                            </p>
+                      </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+
+<div></div>
+	<div id="content" class="productPage baby-registry-items">
 		<div class="container">
 			<div class="stripe stripeM">
 				<div class="shopingCart">
@@ -31,7 +57,7 @@ include 'registryClass.php';
 							</thead>
 							<tbody>
 							<?php if($_SESSION['registry']) {?>
-							
+
 							<?php foreach($_SESSION['registry'] as $index => $wishItem) {?>
 								<tr>
 									<td><?=$index +1 ?></td>

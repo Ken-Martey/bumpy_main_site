@@ -4,6 +4,17 @@ include 'header.php';
 include 'datasource/auth.php';
 include 'datasource/get_categories.php';
 ?>
+<div id="banner" class="stripe banner">
+    <img src="images/3-grid-masonry-layout-sidebar-with-banner.jpg" alt=""/>
+    <div class="bannerText">
+      <div class="container">
+        <div class="bantitle1 fontsize_34 cl_ffffff bold">Club Membership</div>
+        <h2 class="bantitle2 cl_ffffff uppercase bold">Purchase item on club price only</h2>
+        <div class="bantitle3 fontsize_27 cl_ffffff">The club membership allows you to enjoy discounts on any purchase.</div><br>
+        <a href="login-register.php" class="banner_borderbtn bc_ffffff">Join Club</a>
+      </div>
+    </div>
+  </div><!-- ( BANNER END ) -->
 	<div id="content">
 		<div class="stripe-1">
 			<div class="container">

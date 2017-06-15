@@ -30,8 +30,8 @@ include 'datasource/get_category_products.php';
             	<h3 class="text-inherit cl_000000"><?=$single_product['name']?></h3>
 							<div class="breadcrumb">
                 <h5>Category:<a href="#"> <?= $single_product['related']['category'][0]['name'];?></a></h4>
-                <h5>Normal Price: <strong>GHS <?=$product['origPrice']?></strong></div></h4>
-								<h5>Club Price: <strong>GHS <?=$product['origPrice']?></strong></div></h4>
+                <h5>Normal Price: <strong>GHS <?=$single_product['origPrice']?></strong></div></h4>
+								<h5>Club Price: <strong>GHS <?=$single_product['clubPrice']?></strong></div></h4>
 							</div><!-- ( BREAD CRUMB END ) -->
 							<p><?=$single_product['long_desc']?></p>
 							<br><br>

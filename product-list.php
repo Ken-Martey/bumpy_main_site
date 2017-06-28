@@ -105,13 +105,13 @@ include 'datasource/get_category_products.php';
 									</div><!-- ( PRODUCT IMAGE END ) -->
                   </div>
 									<div class="productDesc">
-										<span class="product-title p-list-truncate"><a href="product-details.php?product_id=<?=$product['id']?>"></a><?=$product['name']?></span>
+										<span class="product-title truncate"><a href="product-details.php?product_id=<?=$product['id']?>"></a><?=$product['name']?></span>
 										<div>
                         <a href="#">
-                        club price: <strong class="badge badge-success">GHS <?=$product['clubPrice']?></strong>
+                        <strong>Club price:</strong> <strong class="badge badge-success">GHS <?=$product['clubPrice']?></strong>
                         </a>
                     </div><!-- ( STARS END ) -->
-                    <div >Normal price: <strong>GHS <?=$product['origPrice']?></strong></div>
+                    <div >Regular price: <strong>GHS <?=$product['origPrice']?></strong></div>
 									</div><!-- ( PRODUCT DESCRIPTION END ) -->
 								</div><!-- ( PRODUCT BOX END ) -->
 							</div>

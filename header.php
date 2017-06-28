@@ -44,7 +44,7 @@ include 'datasource/auth.php';
       <div class="container">
         <div class="col-md-6 top_left">
           <ul class="list-inline sepraterLi">
-            <i class="fa fa-clock-o"></i> Delivery within 48hours |
+            <i class="fa fa-clock-o"></i> Exclusive deals |
             <i class="fa fa-shopping-cart"></i> Easy to Order |
             <i class="fa fa-phone-square"></i> Call Us : +233 20 921 5154
 

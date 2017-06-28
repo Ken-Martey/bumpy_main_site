@@ -56,11 +56,11 @@
               <p>We want to help you with the solutions you need! We want to reduce your stress and enhance your entity in every way that we can. It’s what makes us tick. Let us know about your inquiries in the contact form and we will get with you post haste! We’d love to meet you for a cup of coffee if you’re nearby or Skype with you if you’re across the globe. <strong class="cl_e85200">Talk soon!</strong></p>
               <div class="addressBox">
                 <h4 class="text-inherit">Address</h4>
-                <p>21218 St. Andrews Blvd. Unit 213,<br>Boca Raton, Florida 33433</p>
-                <h4 class="text-inherit">Phone numbers</h4>
-                <p><a href="tel:561-962-1792">561-962-1792</a></p>
+                <p>East Legon<br>Accra - Ghana</p>
+                <h4 class="text-inherit">Phone number</h4>
+                <p><a href="tel:561-962-1792">+233 575337171 </a></p>
                 <h4 class="text-inherit">Email</h4>
-                <p><a href="mailto:support@imediathemes.com">Support@imediathemes.com</a></p>
+                <p><a href="mailto:support@imediathemes.com">missyankah@gmail.com</a></p>
               </div>
             </div>
             <div class="col-md-6 col-sm-12">

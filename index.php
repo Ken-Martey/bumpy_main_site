@@ -55,7 +55,7 @@
               id="slide-1-layer-2"
               data-x="['left','center','center','center']" data-hoffset="['0','0','0','0']"
               data-y="['top','top','top','top']" data-voffset="['150','130','110','80']"
-              data-fontsize="['30','33','33','28']"
+              data-fontsize="['25','33','33','28']"
                             data-lineheight="['40','30','25','30']"
               data-width="none"
               data-height="none"
@@ -68,7 +68,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index:5;white-space:nowrap;color:#fff;">"To be pregnant is to be vitally alive, <br>thoroughly woman, and undoubtedly inhabited."
+              style="z-index:5;white-space:nowrap;color:#fff;">"Every parent loves great deals and discounts so we have<br> no choice than to make it happen every week!"
                         </div>
                         <div class="tp-caption tp-resizeme rs-parallaxlevel-0 slider_text slider_left"
               id="slide-1-layer-4"
@@ -88,7 +88,7 @@
               data-splitin="none"
               data-splitout="none"
               data-responsive_offset="on"
-              style="z-index:26;white-space:nowrap;color:#ffffff;font-style:italic;">By Anne Buchanan & Debra Klingsporn
+              style="z-index:26;white-space:nowrap;color:#ffffff;font-style:italic;">By Esi Yankah
                         </div>
 
                         <!-- LAYER NR. 5 -->
@@ -135,7 +135,7 @@
                         </div>
 
                         <!-- LAYER NR. 7 -->
-                        <a href="https://themeforest.net/item/stanza-store-responsive-ecommerce-html-5-template/16751951"
+                        <a href="#"
               class="white-to-orange">
                         <div class="tp-caption rs-parallaxlevel-0 slider_borderbtn1 slider_leftM"
               id="slide-1-layer-7"
@@ -277,7 +277,7 @@
                id="slide-2-layer-5"
                data-x="['right','right','right','center']" data-hoffset="['0','30','30','0']"
                data-y="['top','bottom','bottom','middle']" data-voffset="['365','30','30','-44']"
-               data-fontsize="['74','25','20','25']"
+               data-fontsize="['50','25','20','25']"
                data-lineheight="['70','30','25','30']"
                data-width="none"
                data-height="none"
@@ -290,11 +290,11 @@
                data-splitout="none"
                data-responsive_offset="on"
                data-responsive="on"
-               style="z-index:22;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">Super big SALE
+               style="z-index:22;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;">BABY-KICKING DEALS!
             </div>
 
             <!-- LAYER NR. 6 -->
-            <a href="https://themeforest.net/item/stanza-store-responsive-ecommerce-html-5-template/16751951">
+            <a href="#">
             <div class="tp-caption rs-parallaxlevel-0 slider_borderbtn1 slider_rightM"
                id="slide-2-layer-6"
                data-x="['right','right','right','center']" data-hoffset="['0','521','398','0']"
@@ -379,7 +379,7 @@
                data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
                data-start="1000"
                data-responsive_offset="on"
-               style="z-index:6;color:#ffffff;">"A &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;dress should be a like a barbed-wire<br>fence: serving its purpose withoutobstructing <br>the view."
+               style="z-index:6;color:#ffffff;">Friends and family can shop for you<br> on your Baby on a Budget registry.
             </div>
 
             <!-- LAYER NR. 3 -->
@@ -401,7 +401,7 @@
                data-splitin="none"
                data-splitout="none"
                data-responsive_offset="on"
-               style="z-index:5;white-space:normal;color:#000;">woman's
+               style="z-index:5;white-space:normal;color:#000;">
             </div>
 
             <!-- LAYER NR. 4 -->
@@ -424,7 +424,7 @@
                data-splitin="none"
                data-splitout="none"
                data-responsive_offset="on"
-               style="z-index:26;white-space:nowrap;color:#ffffff;font-style:italic;">Sophia Loren
+               style="z-index:26;white-space:nowrap;color:#ffffff;font-style:italic;">Esi Yankah
             </div>
 
             <!-- LAYER NR. 5 -->
@@ -589,10 +589,10 @@
                                         <div>
                                         <span class="product-price">
                                            <a href="<?=($user_is_logged_in)?'#':'/login-register.php'?>">
-                                          club price: <strong class="badge badge-success">GHS <?=$product['clubPrice']?></strong>
+                                        <strong>Club price:</strong>   <strong class="badge badge-success">GHS <?=$product['clubPrice']?></strong>
                                           </a>
                                         </div><!-- ( STARS END ) -->
-                                        <div >Normal price: <strong>GHS <?=$product['origPrice']?></strong></div>
+                                        <div >Regular price: <strong>GHS <?=$product['origPrice']?></strong></div>
                                         <div class="wishlist-bb-registry">
                                         <div class="wishlist">
                                         <form action="/wishlist.php" method="POST">
@@ -683,10 +683,10 @@
                                         <span class="product-title truncate"><a href="product-details.html"><?=$product['name']?></a></span>
                                         <div>
                                             <a href="#">
-                                      club price: <strong class="badge badge-success">GHS <?=$product['clubPrice']?></strong>
+                                      <strong>Club price:</strong> <strong class="badge badge-success">GHS <?=$product['clubPrice']?></strong>
                                       </a>
                                         </div><!-- ( STARS END ) -->
-                                        <div >Normal price: <strong>GHS <?=$product['origPrice']?></strong></div>
+                                        <div >Regular price: <strong>GHS <?=$product['origPrice']?></strong></div>
                                          <div class="wishlist-bb-registry">
                                         <div class="wishlist">
                                         <form action="/wishlist.php" method="POST">

@@ -1832,7 +1832,7 @@ header.header.sticky_head .top_bar {
     padding: 10px 15px;
     background: #fff;
     text-align: center;
-     margin-top: 35px;
+     margin-top: 5px;
 }
 
 .productDesc .product-title {
@@ -4312,6 +4312,15 @@ button.cartBTN2 {
     width: 200px;
 }
 
+.truncate-body {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    width: 200px;
+}
+
 .p-list-truncate{
   display: inline-block;
     white-space: nowrap;
@@ -4319,4 +4328,8 @@ button.cartBTN2 {
     text-overflow: ellipsis;
     -o-text-overflow: ellipsis;
     width: 220px;
+}
+
+.club-price-color{
+  color: #df6f98;
 }

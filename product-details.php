@@ -15,12 +15,12 @@ include 'datasource/get_category_products.php';
 						<ul id="product-slider" class="product-item-slider product-image">
 							<li class="item hoverStyle" data-thumb="images/caro-product-thum-1.jpg">
 								<img src="<?=$single_product['image']?>">
-								<div class="hoverBox">
+								<!-- <div class="hoverBox">
 									<div class="hoverIcons">
 										<a href="images/caro-product-1-big.jpg" class="eye hovicon"><i class="fa fa-expand expand-pic"></i></a>
 										<a href="##" class="heart hovicon"><i class="fa fa-cart-arrow-down"></i></a>
-									</div><!-- ( HOVER ICONS END ) -->
-								</div><!-- ( HOVER BOX END ) -->
+									</div>
+								</div> -->
 							</li>
 						</ul>
 					</div>
@@ -31,7 +31,9 @@ include 'datasource/get_category_products.php';
 							<div class="breadcrumb">
                 <h5>Category:<a href="#"> <?= $single_product['related']['category'][0]['name'];?></a></h4>
                 <h5>Normal Price: <strong>GHS <?=$single_product['origPrice']?></strong></div></h4>
+                <div class="club-price-color">
 								<h5>Club Price: <strong>GHS <?=$single_product['clubPrice']?></strong></div></h4>
+                </div>
 							</div><!-- ( BREAD CRUMB END ) -->
 							<p><?=$single_product['long_desc']?></p>
 							<br><br>
@@ -73,50 +75,6 @@ include 'datasource/get_category_products.php';
 			<div class="stripe">
 				<div class="product-details">
 					<div class="tabs_container">
-                        <ul class="nav nav-pills" role="tablist">
-
-                            <li role="presentation">
-								<a href="##add-info" aria-controls="add-info" role="tab" data-toggle="tab">Additional Information</a>
-							</li>
-
-                        </ul>
-
-                            <div role="tabpanel" class="tab-pane active" id="add-info">
-                            	<p><strong>Details: </strong></p>
-                                <ul>
-                                    <li>Crew neck</li>
-                                    <li>Short sleeves</li>
-                                    <li>Front text print</li>
-                                    <li>Cropped</li>
-                                    <li>Approx. 18&quot; length</li>
-                                    <li>Made in USA</li>
-                                </ul>
-                                <p>&nbsp;</p>
-                                <p><strong>Fiber Content:</strong></p>
-                                <ul>
-                                    <li>50% cotton, 50% polyester</li>
-                                </ul>
-                                <p>&nbsp;</p>
-                                <p><strong>Care:</strong></p>
-                                <ul>
-                                    <li>Hand wash</li>
-                                </ul>
-                                <p>&nbsp;</p>
-                                <p><strong>Additional Info: </strong></p>
-                                <ul>
-                                    <li>Fit: this style fits true  to size. </li>
-                                </ul>
-                                <p>&nbsp;</p>
-                                <p><strong>Model's stats for sizing: </strong></p>
-                                <ul>
-                                    <li>Height: 5'10&quot;</li>
-                                    <li>Bust: 32&quot;</li>
-                                    <li>Waist: 24&quot;</li>
-                                    <li>Hips: 34&quot;</li>
-                                    <li>Model is wearing size S.</li>
-                                </ul>
-                            </div>
-
                         </div> <!-- ( TAB CONTENT END ) -->
                     </div><!-- ( TABS CONTAINER END ) -->
 				</div><!-- ( PRODUCT DETAILS END ) -->
@@ -135,16 +93,23 @@ include 'datasource/get_category_products.php';
 							<div class="productImage hoverStyle">
 								<img src="<?=$category_product['image']?>" alt="">
                 <span class="new">New</span>
-								<div class="hoverBox">
-									<div class="hoverIcons">
-										<a href="#" class="eye hovicon"><i class="fa fa-eye"></i></a>
-									</div><!-- ( HOVER ICONS END ) -->
-									<a href="view-cart.html" class="cartBTN2">Add to Cart</a>
-								</div><!-- ( HOVER BOX END ) -->
+								 <form method="POST" action="<?=$_SERVER['PHP_SELF']?>">
+                                            <button class="cartBTN2">Add to Cart</button>
+                     <div class="hoverIcons">
+
+                                                <a href="product-details.php?product_id=<?=$product['id']?>" class="eye hovicon"><i class="fa fa-eye"></i></a>
+                                              <input type="hidden" name="add_to_cart" value="1">
+                                              <input type="hidden" name="item_name" value="<?=$product['name']?>">
+                                              <input type="hidden" name="item_id" value="<?=$product['id']?>">
+                                              <input type="hidden" name="item_image" value="<?=$product['image']?>">
+                                              <input type="hidden" name="item_price" value="<?=$product['origPrice']?>">
+                                              <input type="hidden" name="item_quantity" value="1">
+                                            </div><!-- ( HOVER ICONS END ) -->
+                                            </form>
 							</div><!-- ( PRODUCT IMAGE END ) -->
 							<div class="productDesc">
-								<span class="product-title"><a href="#"><?=$category_product['name']?></a></span>
-								<p><?=$category_product['short_desc']?></p>
+								<span class="product-title truncate"><a href="#"><?=$category_product['name']?></a></span>
+								<p><span class="truncate-body"><?=$category_product['short_desc']?></span></p>
 								<div>
                           club price: <strong class="badge badge-success">GHS<?=$category_product['origPrice']?></strong>
                       </div><!-- ( STARS END ) -->
@@ -167,8 +132,6 @@ include 'datasource/get_category_products.php';
           <div class="col-md-7">
             <ul class="clearfix sepraterLi foterNav">
               <li><a href="aboutus.html">About us</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Shop</a></li>
               <li><a href="contactus.html">Contact us</a></li>
             </ul><!-- ( FOOTER NAV END ) -->
             <div class="copyright">&copy; 2017 Bumpy shoppers club

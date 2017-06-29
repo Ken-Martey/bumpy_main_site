@@ -491,7 +491,7 @@
             </div>
 
             <!-- LAYER NR. 8 -->
-            <a href="#" class="white-to-black">
+            <a href="registry.php" class="white-to-black">
             <div class="tp-caption rs-parallaxlevel-0 slider_borderbtn1 slider_leftM"
                id="slide-3-layer-8"
                data-x="['left','right','right','center']" data-hoffset="['0','521','398','0']"
@@ -511,7 +511,7 @@
                data-actions='[{"event":"click","action":"scrollbelow","offset":"0px"}]'
                data-responsive_offset="on"
                data-responsive="on"
-               style="z-index:9;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;background-color:#000;border-color:#000;">Join Now
+               style="z-index:9;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;background-color:#000;border-color:#000;">Registry
             </div></a>
 
             <!-- LAYER NR. 9 -->
@@ -534,7 +534,7 @@
                data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
                data-responsive_offset="on"
                data-responsive="on"
-               style="z-index:10;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;color:#000;border-color:#000;">Shop All
+               style="z-index:10;white-space:nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;color:#000;border-color:#000;">View registry
             </div>
           </li>
 
@@ -682,7 +682,7 @@
                                     <div class="productDesc">
                                         <span class="product-title truncate"><a href="product-details.html"><?=$product['name']?></a></span>
                                         <div>
-                                            <a href="#">
+                                            <a href="login-register.php">
                                       <strong>Club price:</strong> <strong class="badge badge-success">GHS <?=$product['clubPrice']?></strong>
                                       </a>
                                         </div><!-- ( STARS END ) -->
@@ -706,10 +706,24 @@
                                     </div><!-- ( PRODUCT DESCRIPTION END ) -->
                                 </div><!-- ( PRODUCT BOX END ) -->
                             </div>
+
+
 						</li>
 <?php } ?>
+
 					</ul>
 				</div><!-- ( PRODUCTS ROW END ) -->
+        <br>
+        <div class="col-xs-6">
+        <a href="contact_us.php" title="Sell your items">
+        <img src="images/sell-items.jpeg">
+        </a>
+        </div>
+        <div class="col-xs-6">
+        <a href="registry.php" title="Add to baby registry">
+        <img src="images/baby-registry-img.jpg">
+        </a>
+        </div>
 			</div>
 		</div><!-- ( STRIPE END ) -->
 
@@ -718,36 +732,46 @@
 	</div><!-- ( CONTENT END ) -->
 
 
-<footer class="footer style1">
 
+  <footer class="footer style1">
     <div class="bottom_bar">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
             <ul class="clearfix sepraterLi foterNav">
-              <li><a href="aboutus.html">About us</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Shop</a></li>
-              <li><a href="contactus.html">Contact us</a></li>
+              <li><a href="about_us.php">About us</a></li>
+              <li><a href="customer_service.php">Customer service</a></li>
+              <li><a href="contact_us.php">Contact us</a></li>
+
+              <p style="color: #b1b1b1">
+              Need help? Looking for a particular product? Don’t hesitate, <br>
+              call/whatsapp
+              us with all your questions and enquiries. <br>
+              We know you love great
+              deals like we do. <br> Call 020 921 5154.
+              </p>
             </ul><!-- ( FOOTER NAV END ) -->
-            <div class="copyright">&copy; 2017 Bumpy shoppers club
+            <div class="copyright">&copy; 2017 Bumpy
               <ul class="list-inline">
-                <li><a href="##">All Rights Reserved</a></li>
+                <li><a href="index.html#">All Rights Reserved</a></li>
               </ul>
             </div><!-- ( COPYRIGHT END ) -->
           </div>
           <div class="col-md-5">
             <div class="social_links">
               <ul class="list-inline">
-                <li>Follow us</li>
+             <span style="font-size: 17px">We accept payment via</span>
+                <a><img src="images/payment-image.png" alt="payment" width="190px"></a>
+                <br>
+                <span style="font-size: 17px">Visit us on social media</span>
                 <li><a href="#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
                 <li><a href="#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
                 <li><a href="#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
-                <li><a href="#"><i class="fa fa-youtube-square"></i>&nbsp;</a></li>
               </ul>
             </div><!-- ( SOCIAL LINKS END ) -->
           </div>
         </div>
+
       </div>
     </div><!-- ( BOTTOM BAR END ) -->
   </footer><!-- ( FOOTER END ) -->

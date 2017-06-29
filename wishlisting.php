@@ -6,19 +6,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>The Stanza Store</title>
     <link rel="icon" href="images/favicon.jpg" type="image/png" />
-	
+
 	<!-- ( CSS LIBRARY LINKS ) -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/default.css@ver=2.9.1.css" rel="stylesheet">
-	
+
 	<!-- ( RS5.0 MAIN STYLESHEET ) -->
 	<link rel="stylesheet" href="revolution/css/settings.css">
 	<!-- RS5.0 LAYERS AND NAVIGATION STYLES -->
 	<link rel="stylesheet" href="revolution/css/layers.css">
 	<link rel="stylesheet" href="revolution/css/navigation.css">
-    
+
     <link href="css/mediaQueries.css@ver=2.9.2.css" rel="stylesheet">
-	
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -39,7 +39,7 @@
 						<li><a href="faqs.html">FAQ</a></li>
 					</ul>
 				</div><!-- ( TOP LEFT END ) -->
-				
+
 				<div class="col-md-6 top_right">
 					<ul class="list-inline">
 						<li><i class="fa fa-key fa-fw"></i> <a href="login-register.html">Register</a>
@@ -59,7 +59,7 @@
 				</div><!-- ( TOP RIGHT END ) -->
 			</div>
 		</div><!-- ( TOP BAR END ) -->
-		
+
 		<div class="container">
 			<div class="head_inner">
 				<div class="logo">
@@ -67,14 +67,14 @@
 						<img src="images/logo.png" alt=""/>
 					</a>
 				</div><!-- ( LOGO END ) -->
-				
+
 				<nav class="clearfix">
 					<div class="mbmenu">
-						<a href="whislisting.html#">Menu 
+						<a href="whislisting.html#">Menu
 							<span class="lines"><span></span><span></span><span></span></span>
 						</a>
 					</div><!-- ( MBMENU END ) -->
-					
+
 					<div class="main_menu_cont">
 						<ul class="main_menu">
 							<li class="mobSearch">
@@ -124,7 +124,7 @@
                                             <li><a href="3-grid-masonry-layout-sidebar.html">3 Grid Masonary Sidebar Layout</a></li>
                                             <li><a href="4-grid-masonry-layout.html">4 Grid Masonary Layout</a></li>
 										</ul>
-									</li>                                    
+									</li>
 									<li class="menu-item menu-item-has-children"><a href="whislisting.html#">Product Detail Pages</a>
 										<ul class="sub-menu">
 											<li><a href="affiliate-product-style.html">Affiliate Product Style</a></li>
@@ -157,7 +157,7 @@
 											<li><a href="blog-listing-2.html">Listing Style 2</a></li>
                                             <li><a href="blog-listing-3.html">Listing Style 3</a></li>
 										</ul>
-									</li>                                    
+									</li>
 									<li class="menu-item menu-item-has-children"><a href="whislisting.html#">Blog Inner/Detail Page</a>
 										<ul class="sub-menu">
 											<li><a href="blog-detail-left-sidebar.html">Left Sidebar Layout</a></li>
@@ -269,7 +269,7 @@
 							</li>
 						</ul>
 					</div><!-- ( MAIN MENU END ) -->
-					
+
 					<div class="nav_search mobile_none">
 						<a href="whislisting.html#" class="searchBTN fa fa-search fa-fw"></a>
 						<div class="mini-search">
@@ -281,7 +281,7 @@
 							</div><!-- ( DROP BOX END ) -->
 						</div><!-- ( MINI SEARCH END ) -->
 					</div><!-- ( NAV SEARCH END ) -->
-					
+
 					<div class="mini-cart">
 						<div class="cartHover">
 							<span class="cartBTN">Cart / $0.00</span>
@@ -336,8 +336,8 @@
 			</div><!-- ( HEADER INNER END ) -->
 		</div>
 	</header><!-- ( HEADER END ) -->
-	
-	
+
+
 	<div id="banner" class="stripe banner">
 		<img src="images/3-grid-layout-sidebar-with-banner.jpg" alt=""/>
 		<div class="bannerText">
@@ -349,8 +349,8 @@
 			</div>
 		</div>
 	</div><!-- ( BANNER END ) -->
-	
-	
+
+
 	<div id="content" class="productPage">
 		<div class="container">
 			<div class="topSection">
@@ -369,7 +369,7 @@
 							</div><!-- ( BREAD CRUMB END ) -->
 						</div>
 					</div>
-					
+
 				</div><!-- ( BREAD CRUMB ROW END ) -->
 				<div class="sorting clearfix">
 					<div class="row">
@@ -392,7 +392,7 @@
 					</div>
 				</div><!-- ( SORTING END ) -->
 			</div><!-- ( TOP SECTION END ) -->
-			
+
 			<div class="stripe">
 				<div class="productsRow row">
 					<div class="col-md-9 productListing">
@@ -644,7 +644,7 @@
 							</div><!-- ( PRODUCT BOX END ) -->
 
 						</div><!-- ( ROW END ) -->
-						
+
 						<div class="text-center">
 							<div class="pagination">
 								<a href="whislisting.html#" class="prevPage"><i class="fa fa-angle-left"></i></a>
@@ -720,9 +720,9 @@
 								<li><a href="whislisting.html#">10 &nbsp; &nbsp; &nbsp; / &nbsp; &nbsp; &nbsp; Medium</a></li>
 							</ul>
 						</div>
-						
+
 						<h4 class="text-center">Filter By Price</h4>
-							
+
 							<div data-role="main" class="ui-content rangeSlider">
 								<form action="index.html" method="get" class="widget_price_filter">
 									<div class="price_slider_wrapper">
@@ -748,8 +748,8 @@
 				</div><!-- ( PRODUCTS ROW END ) -->
 			</div><!-- ( STRIPE END ) -->
 		</div>
-		
-		
+
+
 		<div class="stripe">
 			<div class="container">
 				<h3 class="dashStyle">Featured Products</h3>
@@ -1020,8 +1020,8 @@
 			</div>
 		</div><!-- ( STRIPE END ) -->
 	</div><!-- ( CONTENT END ) -->
-	
-	
+
+
 	<footer class="footer style1">
 		<div class="stripe-1 stripe_1 foot_widgets">
 			<div class="container">
@@ -1049,7 +1049,7 @@
 												<img src="images/blog-thumb-1.jpg" alt="">
 											</div>
 											<div class="blog-desc">
-												<h5 class="blog-title">Wearable Fall Fashion Trends</h5> 
+												<h5 class="blog-title">Wearable Fall Fashion Trends</h5>
 												<p class="desc">Lorem ipsum dolor sit amet conset</p>
 											</div>
 										</a>
@@ -1071,7 +1071,7 @@
 												<img src="images/blog-thumb-3.jpg" alt="">
 											</div>
 											<div class="blog-desc">
-												<h5 class="blog-title">The Fashion Guide of Dos &amp; Donts</h5> 
+												<h5 class="blog-title">The Fashion Guide of Dos &amp; Donts</h5>
 												<p class="desc">Lorem ipsum dolor sit amet conset</p>
 											</div>
 										</a>
@@ -1122,7 +1122,7 @@
 				</div>
 			</div>
 		</div><!-- ( FOOTER WIDGETS END ) -->
-		
+
 		<div class="bottom_bar">
 			<div class="container">
 				<div class="row">
@@ -1145,13 +1145,10 @@
 						<div class="social_links">
 							<ul class="list-inline">
 								<li>Follow us</li>
-								<li><a href="whislisting.html#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
-								<li><a href="whislisting.html#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
-								<li><a href="whislisting.html#"><i class="fa fa-linkedin-square"></i>&nbsp;</a></li>
-								<li><a href="whislisting.html#"><i class="fa fa-google-plus-square"></i>&nbsp;</a></li>
-								<li><a href="whislisting.html#"><i class="fa fa-pinterest-square"></i>&nbsp;</a></li>
-								<li><a href="whislisting.html#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
-								<li><a href="whislisting.html#"><i class="fa fa-youtube-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-youtube-square"></i>&nbsp;</a></li>
 							</ul>
 						</div><!-- ( SOCIAL LINKS END ) -->
 					</div>
@@ -1159,9 +1156,9 @@
 			</div>
 		</div><!-- ( BOTTOM BAR END ) -->
 	</footer><!-- ( FOOTER END ) -->
-	
+
 	<a href="whislisting.html#" class="scroll_top"><i class="fa fa-chevron-up fa-2x"></i></a><!-- ( SCROLL TOP END ) -->
-	
+
 </div><!-- ( WRAPPER END ) -->
 
 <div class="overlay"></div><!-- ( OVERLAY END ) -->
@@ -1182,12 +1179,12 @@
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
 <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-    
+
 <!-- share this JS Files -->
 <script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://ws.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "a7c8641b-6c3a-4b59-98ce-510413a4dab4", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-    
+
 <script src="js/jquery.matchHeight-min.js"></script>
 <!-- theme custom JS Files -->
 <script src="js/configuration.js"></script>

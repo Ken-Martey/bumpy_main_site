@@ -3,7 +3,7 @@ include 'header.php';
 include 'registryClass.php';
 ?>
 <div id="banner" class="stripe banner">
-    <img src="images/3-grid-masonry-layout-sidebar-with-banner.jpg" alt=""/>
+    <img src="images/bb-registry.jpg" alt=""/>
     <div class="bannerText">
       <div class="container">
         <div class="bantitle1 fontsize_34 cl_ffffff bold">Baby Registry</div>
@@ -14,7 +14,7 @@ include 'registryClass.php';
     </div>
   </div><!-- ( BANNER END ) -->
 
-<div class="baby-registry-description">
+<!-- <div class="baby-registry-description">
         <div class="col-md-6">
           <div class="card">
                     <div class="card-content">
@@ -37,7 +37,103 @@ include 'registryClass.php';
                     </div>
                 </div>
         </div>
+        </div> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Animated Vertical Carousel</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    </head>
+<body>
+    <section class="slide-wrapper">
+        <div class="container">
+            <div id="myCarousel" class="carousel slide">
+
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <!-- <div class="item item1 active">
+                        <div class="fill" style=" background-color:#48c3af;">
+                            <div class="inner-content">
+                                <div class="carousel-img">
+                                    <img src="http://media.mumzworld.com/media/wysiwyg/UAE-Tab-EN.jpg" alt="sofa" class="img img-responsive" />
+                                </div>
+                                <div class="carousel-desc">
+                                    <h3>Select Gifts</h3>
+                                    <p style="color: #ffffff;">
+                                    Get recommendations & build Gift Lists for your Kids birthdays
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="item item2 active">
+                        <div class="fill" style="background-color:#b33f4a;">
+                            <div class="inner-content">
+                                <div class="carousel-img">
+                                    <img src="images/bb-basket1.jpg" alt="white-sofa" class="img img-responsive" />
+                                </div>
+                                <div class="carousel-desc">
+
+                                    <h3>BABY ON A BUDGET REGISTRY</h3>
+                                    <p style="color: #ffffff;">Add items to your registry and  let you friends and family
+                                    purchase for you!  Oooh yes! We know you found a baby-kicking deal on our website you love,
+                                    but we know you can’t afford it…and you still  want it…No worries! Share it with your family
+                                    and friends to buy it for you! Our Baby on a Budget helps you to share the cost of getting
+                                    great deals and items for you, daddy, your big bump and toddler.  Place your items in your
+                                    registry today, share now so you don’t miss out on baby-kicking deals!
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item item3">
+                        <div class="fill" style="background-color:#7fc2f4;">
+                            <div class="inner-content">
+                                <div class="col-md-6">
+
+                                    <div class="carousel-img">
+                                        <img src="images/bb-basket.jpg" alt="sofa" class="img img-responsive" />
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 text-left">
+                                    <div class="carousel-desc">
+
+                                        <h3>JOIN AND ENJOY CLUB MEMBER PRICES</h3>
+                                        <p style="color: #ffffff;">Your club membership allows you to  enjoy pink  tagged prices…up
+                                        to 80% off discounts, coupons, freebies, and many more!  Always look out for our pink tagged
+                                        prices, always lower, cool deals exclusive to bumpy shoppers club members.  Save lots of money
+                                        on your pregnancy, baby and toddler products and services.  Its easy, just sign up for our yearly
+                                        membership. Only Ghc 100 for a whole year! Feel  free to shop the” regular price”
+                                        tags if you do not want to join the club. </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
+    </section>
+</body>
+</html>
+
+
+
+
 
 <div></div>
 	<div id="content" class="productPage baby-registry-items">
@@ -109,36 +205,45 @@ include 'registryClass.php';
 		</div>
 
 
-	<footer class="footer style1">
-
+  <footer class="footer style1">
     <div class="bottom_bar">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
             <ul class="clearfix sepraterLi foterNav">
-              <li><a href="aboutus.html">About us</a></li>
-              <li><a href="blog-1_2-column.html">Blog</a></li>
-              <li><a href="2-grid-layout-with-banner.html">Shop</a></li>
-              <li><a href="contactus.html">Contact us</a></li>
+              <li><a href="about_us.php">About us</a></li>
+              <li><a href="customer_service.php">Customer service</a></li>
+              <li><a href="contact_us.php">Contact us</a></li>
+
+              <p style="color: #b1b1b1">
+              Need help? Looking for a particular product? Don’t hesitate, <br>
+              call/whatsapp
+              us with all your questions and enquiries. <br>
+              We know you love great
+              deals like we do. <br> Call 020 921 5154.
+              </p>
             </ul><!-- ( FOOTER NAV END ) -->
-            <div class="copyright">&copy; 2017 Bumpy shoppers club
+            <div class="copyright">&copy; 2017 Bumpy
               <ul class="list-inline">
-                <li><a href="3-grid-masonry-layout-sidebar.html#">All Rights Reserved</a></li>
+                <li><a href="index.html#">All Rights Reserved</a></li>
               </ul>
             </div><!-- ( COPYRIGHT END ) -->
           </div>
           <div class="col-md-5">
             <div class="social_links">
               <ul class="list-inline">
-                <li>Follow us</li>
-                <li><a href="3-grid-masonry-layout-sidebar.html#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
-                <li><a href="3-grid-masonry-layout-sidebar.html#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
-                <li><a href="3-grid-masonry-layout-sidebar.html#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
-                <li><a href="3-grid-masonry-layout-sidebar.html#"><i class="fa fa-youtube-square"></i>&nbsp;</a></li>
+             <span style="font-size: 17px">We accept payment via</span>
+                <a><img src="images/payment-image.png" alt="payment" width="190px"></a>
+                <br>
+                <span style="font-size: 17px">Visit us on social media</span>
+                <li><a href="#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
               </ul>
             </div><!-- ( SOCIAL LINKS END ) -->
           </div>
         </div>
+
       </div>
     </div><!-- ( BOTTOM BAR END ) -->
   </footer><!-- ( FOOTER END ) -->
@@ -174,5 +279,98 @@ include 'registryClass.php';
 <script src="js/jquery.matchHeight-min.js"></script>
 <!-- theme custom JS Files -->
 <script src="js/configuration.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+// invoke the carousel
+    $('#myCarousel').carousel({
+      interval:6000
+    });
+
+// scroll slides on mouse scroll
+$('#myCarousel').bind('mousewheel DOMMouseScroll', function(e){
+
+        if(e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+            $(this).carousel('prev');
+
+
+        }
+        else{
+            $(this).carousel('next');
+
+        }
+    });
+
+//scroll slides on swipe for touch enabled devices
+
+  $("#myCarousel").on("touchstart", function(event){
+
+        var yClick = event.originalEvent.touches[0].pageY;
+      $(this).one("touchmove", function(event){
+
+        var yMove = event.originalEvent.touches[0].pageY;
+        if( Math.floor(yClick - yMove) > 1 ){
+            $(".carousel").carousel('next');
+        }
+        else if( Math.floor(yClick - yMove) < -1 ){
+            $(".carousel").carousel('prev');
+        }
+    });
+    $(".carousel").on("touchend", function(){
+            $(this).off("touchmove");
+    });
+});
+
+});
+//animated  carousel start
+$(document).ready(function(){
+
+//to add  start animation on load for first slide
+$(function(){
+    $.fn.extend({
+      animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+          $(this).removeClass(animationName);
+        });
+      }
+    });
+       $('.item1.active img').animateCss('slideInDown');
+       $('.item1.active h2').animateCss('zoomIn');
+       $('.item1.active p').animateCss('fadeIn');
+
+});
+
+//to start animation on  mousescroll , click and swipe
+
+
+
+     $("#myCarousel").on('slide.bs.carousel', function () {
+    $.fn.extend({
+      animateCss: function (animationName) {
+        var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+        this.addClass('animated ' + animationName).one(animationEnd, function() {
+          $(this).removeClass(animationName);
+        });
+      }
+    });
+
+// add animation type  from animate.css on the element which you want to animate
+
+    $('.item1 img').animateCss('slideInDown');
+    $('.item1 h2').animateCss('zoomIn');
+    $('.item1 p').animateCss('fadeIn');
+
+    $('.item2 img').animateCss('zoomIn');
+    $('.item2 h2').animateCss('swing');
+    $('.item2 p').animateCss('fadeIn');
+
+    $('.item3 img').animateCss('fadeInLeft');
+    $('.item3 h2').animateCss('fadeInDown');
+    $('.item3 p').animateCss('fadeIn');
+    });
+});
+
+</script>
 </body>
 </html>

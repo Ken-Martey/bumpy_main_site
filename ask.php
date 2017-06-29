@@ -1,6 +1,6 @@
 <?php
  include 'header.php';
- 
+
 ?>
 
     <div class="innerHeading bg_f1f1f1 innerHeading-border stripeM">
@@ -173,15 +173,23 @@
         }
     })
 </script>
-<footer class="footer style1">
+  <footer class="footer style1">
     <div class="bottom_bar">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
             <ul class="clearfix sepraterLi foterNav">
-              <li><a href="#">Shoppers Club</a></li>
-              <li><a href="2-grid-layout-with-banner.html">Shop</a></li>
-              <li><a href="contactus.html">Contact us</a></li>
+              <li><a href="about_us.php">About us</a></li>
+              <li><a href="customer_service.php">Customer service</a></li>
+              <li><a href="contact_us.php">Contact us</a></li>
+
+              <p style="color: #b1b1b1">
+              Need help? Looking for a particular product? Don’t hesitate, <br>
+              call/whatsapp
+              us with all your questions and enquiries. <br>
+              We know you love great
+              deals like we do. <br> Call 020 921 5154.
+              </p>
             </ul><!-- ( FOOTER NAV END ) -->
             <div class="copyright">&copy; 2017 Bumpy
               <ul class="list-inline">
@@ -192,14 +200,18 @@
           <div class="col-md-5">
             <div class="social_links">
               <ul class="list-inline">
+             <span style="font-size: 17px">We accept payment via</span>
                 <a><img src="images/payment-image.png" alt="payment" width="190px"></a>
-                <li><a href="index.html#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
-                <li><a href="index.html#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
-                <li><a href="index.html#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
+                <br>
+                <span style="font-size: 17px">Visit us on social media</span>
+                <li><a href="#"><i class="fa fa-facebook-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-twitter-square"></i>&nbsp;</a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i>&nbsp;</a></li>
               </ul>
             </div><!-- ( SOCIAL LINKS END ) -->
           </div>
         </div>
+
       </div>
     </div><!-- ( BOTTOM BAR END ) -->
   </footer><!-- ( FOOTER END ) -->
